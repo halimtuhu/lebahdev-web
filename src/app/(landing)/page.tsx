@@ -11,7 +11,7 @@ import Blogs from './components/Blogs'
 import ServicesMarquee from '@/components/ServicesMarquee'
 
 export const metadata: Metadata = {
-  title: 'Agency 2',
+  title: 'Lebah Dev',
 }
 
 const Agency2 = () => {
