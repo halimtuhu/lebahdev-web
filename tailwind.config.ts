@@ -48,8 +48,8 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          ...colors.orange,
-          DEFAULT: colors.orange['600'],
+          ...colors.amber,
+          DEFAULT: colors.amber['500'],
         },
       },
 

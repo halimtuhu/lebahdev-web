@@ -89,14 +89,14 @@ const TopNavBar = ({
                     alt="logo"
                     height={40}
                     width={147}
-                    className="flex h-10 dark:hidden"
+                    className="flex h-10 dark:hidden object-scale-down"
                   />
                   <Image
                     src={logoLight}
                     alt="logo"
                     height={40}
                     width={147}
-                    className="hidden h-10 dark:flex"
+                    className="hidden h-10 dark:flex object-scale-down"
                   />
                 </Link>
                 <div className="flex items-center gap-2">
