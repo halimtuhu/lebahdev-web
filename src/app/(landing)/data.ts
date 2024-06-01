@@ -4,147 +4,184 @@ import type {
   PricingType,
   ProjectSlideType,
   ReviewType,
-} from './types'
+} from "./types";
 
-import agency1 from '@/assets/images/landing/agency-2/img-1.jpg'
-import agency2 from '@/assets/images/landing/agency-2/img-2.jpg'
-import agency3 from '@/assets/images/landing/agency-2/img-3.jpg'
+import agency1 from "@/assets/images/landing/agency-2/img-1.jpg";
+import agency2 from "@/assets/images/landing/agency-2/img-2.jpg";
+import agency3 from "@/assets/images/landing/agency-2/img-3.jpg";
 
-import avatar1 from '@/assets/images/avatars/img-1.jpg'
-import avatar2 from '@/assets/images/avatars/img-2.jpg'
-import avatar3 from '@/assets/images/avatars/img-3.jpg'
-import avatar4 from '@/assets/images/avatars/img-4.jpg'
-import avatar5 from '@/assets/images/avatars/img-5.jpg'
+import avatar1 from "@/assets/images/avatars/img-1.jpg";
+import avatar2 from "@/assets/images/avatars/img-2.jpg";
+import avatar3 from "@/assets/images/avatars/img-3.jpg";
+import avatar4 from "@/assets/images/avatars/img-4.jpg";
+import avatar5 from "@/assets/images/avatars/img-5.jpg";
 
 const faqContent: FaqType[] = [
   {
-    title: 'How Can Digital Marketing Benefit My Business?',
+    title: "Siapa itu Lebah Dev",
     description:
-      'It can increase brand visibility, drive website traffic, generate leads, and ultimately boost sales and revenue.',
+      "Lebah Dev adalah tim IT profesional yang siap membantu para pengusaha dalam mengembangkan bisnisnya dari segi teknologi",
   },
   {
-    title: 'Do I Need To Have A Large Budget For Digital Marketing?',
+    title: "Apa saja layanan yang Anda tawarkan?",
     description:
-      'We work with businesses of various budgets and can create strategies that align with your financial resources while delivering meaningful results.',
+      "Kami menawarkan berbagai layanan web development, termasuk desain website kustom, pengembangan aplikasi web, integrasi e-commerce, optimasi SEO, dan pemeliharaan website. Kami juga menyediakan layanan pengembangan backend dan frontend, serta pengembangan aplikasi mobile.",
   },
   {
-    title: 'What Services Does [Your Digital Agency] Offer?',
+    title:
+      "Berapa lama waktu yang diperlukan untuk mengembangkan sebuah website?",
     description:
-      'provides a comprehensive range of digital services, including website design and development, digital marketing, search engine optimization',
+      "Waktu yang diperlukan untuk mengembangkan sebuah website bervariasi tergantung pada kompleksitas dan fitur yang diinginkan. Sebuah website sederhana biasanya dapat diselesaikan dalam 4-6 minggu, sementara proyek yang lebih kompleks mungkin memerlukan beberapa bulan.",
   },
   {
-    title: 'Can Help With Content Creation And Social Media Management?',
+    title: "Berapa biaya yang dikenakan untuk pengembangan website?",
     description:
-      'Absolutely! We offer content creation services, including blog posts, social media content, and multimedia assets.',
+      "Biaya pengembangan website tergantung pada skala dan kompleksitas proyek. Kami menawarkan penawaran harga yang disesuaikan berdasarkan kebutuhan spesifik Anda setelah diskusi awal. Silakan hubungi kami untuk konsultasi dan penawaran harga gratis.",
   },
-]
+  {
+    title:
+      "Apakah Anda menawarkan layanan pemeliharaan website setelah peluncuran?",
+    description:
+      "Ya, kami menawarkan layanan pemeliharaan website untuk memastikan bahwa situs Anda tetap aman, up-to-date, dan berjalan dengan lancar. Layanan ini mencakup pembaruan keamanan, backup rutin, dan dukungan teknis.",
+  },
+  {
+    title:
+      "Apakah website saya akan responsif dan kompatibel dengan perangkat mobile?",
+    description:
+      "Ya, semua website yang kami kembangkan dirancang agar responsif dan kompatibel dengan berbagai perangkat, termasuk smartphone dan tablet. Kami memastikan bahwa situs Anda terlihat dan berfungsi dengan baik di semua layar.",
+  },
+  {
+    title:
+      "Apakah Anda bisa mengoptimalkan website saya untuk mesin pencari (SEO)?",
+    description:
+      "Tentu saja. Kami menyediakan layanan optimasi SEO untuk meningkatkan visibilitas website Anda di mesin pencari seperti Google. Layanan ini mencakup penelitian kata kunci, optimasi konten, dan teknik SEO on-page serta off-page.",
+  },
+  {
+    title: "Bagaimana proses pengembangan website di perusahaan Anda?",
+    description:
+      "Proses pengembangan website kami meliputi beberapa tahap: konsultasi awal, perencanaan dan penentuan kebutuhan, desain dan prototipe, pengembangan dan pengujian, serta peluncuran dan pemeliharaan. Kami bekerja sama dengan Anda di setiap tahap untuk memastikan hasil akhir sesuai dengan visi dan kebutuhan Anda.",
+  },
+];
 
 const projectSlides: ProjectSlideType[] = [
   {
-    title: 'Web Design',
-    subTitle: 'Branding Process',
+    title: "Web Design",
+    subTitle: "Branding Process",
     image: agency1,
   },
   {
-    title: 'Web Design',
-    subTitle: 'Digital Platform',
+    title: "Web Design",
+    subTitle: "Digital Platform",
     image: agency2,
   },
   {
-    title: 'Web Design',
-    subTitle: 'Branding Studio',
+    title: "Web Design",
+    subTitle: "Branding Studio",
     image: agency3,
   },
   {
-    title: 'Web Design',
-    subTitle: 'Branding Process',
+    title: "Web Design",
+    subTitle: "Branding Process",
     image: agency1,
   },
   {
-    title: 'Web Design',
-    subTitle: 'Branding Process',
+    title: "Web Design",
+    subTitle: "Branding Process",
     image: agency2,
   },
   {
-    title: 'Web Design',
-    subTitle: 'Branding Studio',
+    title: "Web Design",
+    subTitle: "Branding Studio",
     image: agency3,
   },
-]
+];
 
 const pricingPlans: PricingType[] = [
   {
-    name: 'advanced',
+    name: "Paket Basic",
     day: 14,
-    price: 24,
+    price: 1000,
     features: [
-      'Guaranteed quality control',
-      'Top quality service',
-      'Best experts at your lease',
+      "Desain Responsif",
+      "Halaman Utama dan 3 Halaman Tambahan",
+      "Optimasi SEO Dasar",
     ],
   },
   {
-    name: 'enterprise',
-    day: 14,
-    price: 87,
+    name: "Paket Pro",
+    day: 30,
+    price: 5000,
     features: [
-      'Guaranteed quality control',
-      'Top quality service',
-      'Best experts at your lease',
+      "Desain Kustom Lengkap",
+      "Sistem Manajemen Konten (CMS)",
+      "Optimasi SEO Lanjutan",
     ],
   },
-]
+  {
+    name: "Paket Premium",
+    day: 30,
+    price: 15000,
+    features: [
+      "Desain Kustom dan Animasi",
+      "Pengembangan Aplikasi Web",
+      "Integrasi API",
+    ],
+  },
+];
 
 const allReviews: ReviewType[] = [
   {
-    name: 'Leonard Heiser',
+    name: "Leonard Heiser",
     description:
-      'I have been hiring people in this space for and numbers of years and I have to be never seen this level of professionalism.',
+      "I have been hiring people in this space for and numbers of years and I have to be never seen this level of professionalism.",
     image: avatar1,
   },
   {
-    name: 'Leonard Heiser',
+    name: "Leonard Heiser",
     description:
-      'I have been hiring people in this space for and numbers of years and I have to be never seen this level of professionalism.',
+      "I have been hiring people in this space for and numbers of years and I have to be never seen this level of professionalism.",
     image: avatar2,
   },
   {
-    name: 'Leonard Heiser',
+    name: "Leonard Heiser",
     description:
-      'I have been hiring people in this space for and numbers of years and I have to be never seen this level of professionalism.',
+      "I have been hiring people in this space for and numbers of years and I have to be never seen this level of professionalism.",
     image: avatar3,
   },
   {
-    name: 'Leonard Heiser',
+    name: "Leonard Heiser",
     description:
-      'I have been hiring people in this space for and numbers of years and I have to be never seen this level of professionalism.',
+      "I have been hiring people in this space for and numbers of years and I have to be never seen this level of professionalism.",
     image: avatar4,
   },
   {
-    name: 'Leonard Heiser',
+    name: "Leonard Heiser",
     description:
-      'I have been hiring people in this space for and numbers of years and I have to be never seen this level of professionalism.',
+      "I have been hiring people in this space for and numbers of years and I have to be never seen this level of professionalism.",
     image: avatar5,
   },
-]
+];
 
 const blogs: BlogType[] = [
   {
-    title: 'Free advertising you online business.',
-    description: 'Content king that means bringing and strategic approach.',
+    title: "Free advertising you online business.",
+    description: "Content king that means bringing and strategic approach.",
     image: agency1,
   },
   {
-    title: 'Investment monitor top 2023',
+    title: "Investment monitor top 2023",
     description:
-      'We are thrilled to the Investment Top 2023, recognizing the excellence and innovation.',
+      "We are thrilled to the Investment Top 2023, recognizing the excellence and innovation.",
     image: agency2,
   },
   {
-    title: 'Advancing Innovation and Collaboration',
+    title: "Advancing Innovation and Collaboration",
     description:
-      'Join us for a transformative event focused on Advancing Innovation and Collaboration.',
+      "Join us for a transformative event focused on Advancing Innovation and Collaboration.",
     image: agency3,
   },
-]
-export { faqContent, projectSlides, pricingPlans, allReviews, blogs }
+];
+
+const waLink = "https://wa.link/xspq1k";
+
+export { faqContent, projectSlides, pricingPlans, allReviews, blogs, waLink };

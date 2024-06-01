@@ -9,22 +9,17 @@ const ServicesMarquee = () => {
         </div>
         <div className="py-2">
           <h2 className="text-4xl font-medium text-default-950">
-            Web Development
+            Static Web Page
           </h2>
         </div>
         <div className="py-2">
           <h2 className="text-4xl font-medium text-default-950">
-            Digital Marketing
+            Web Application
           </h2>
         </div>
         <div className="py-2">
           <h2 className="text-4xl font-medium text-default-950">
-            Product Design
-          </h2>
-        </div>
-        <div className="py-2">
-          <h2 className="text-4xl font-medium text-default-950">
-            Mobile Solutions
+            SEO Optimization
           </h2>
         </div>
       </div>
@@ -39,27 +34,22 @@ const ServicesMarquee = () => {
         </div>
         <div className="py-2">
           <h2 className="text-4xl font-medium text-default-950">
-            Web Development
+            Static Web Page
           </h2>
         </div>
         <div className="py-2">
           <h2 className="text-4xl font-medium text-default-950">
-            Digital Marketing
+            Web Application
           </h2>
         </div>
         <div className="py-2">
           <h2 className="text-4xl font-medium text-default-950">
-            Product Design
-          </h2>
-        </div>
-        <div className="py-2">
-          <h2 className="text-4xl font-medium text-default-950">
-            Mobile Solutions
+            SEO Optimization
           </h2>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ServicesMarquee
+export default ServicesMarquee;

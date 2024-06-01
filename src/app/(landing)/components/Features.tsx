@@ -13,10 +13,10 @@ const Features = () => {
         <div className="mb-10 flex items-end justify-between">
           <div className="mx-auto max-w-2xl text-center">
             <span className="rounded-md border border-primary bg-primary/20 px-3 py-1 text-xs font-medium uppercase tracking-wider text-primary">
-              Features Services
+              Fitur Layanan
             </span>
             <h2 className="my-4 text-4xl font-medium capitalize text-default-950">
-              Features
+              Layanan Kami
             </h2>
           </div>
         </div>
@@ -27,16 +27,11 @@ const Features = () => {
                 <LuComponent className="h-14 w-14 text-default-950" />
               </span>
               <h2 className="mb-4 mt-8 text-2xl font-medium text-default-950">
-                Developer
+                Static Web Development
               </h2>
               <p className="mb-6 text-base text-default-600">
-                Lorem ipsum dummy text are usually use in these section. Lorem
-                ipsum dummy text are used in this design
+                Pembuatan website statis untuk mengenalkan bisnis seperti profil perusahaan, event, jasa, produk, dan sebagainya
               </p>
-              <Link href="" className=" text-lg font-medium text-default-950">
-                Read More
-                <LuMoveRight className="inline-block h-6 w-6 opacity-0 transition-all duration-500 will-change-transform group-hover:translate-x-2 group-hover:opacity-100" />
-              </Link>
             </div>
           </div>
           <div className="group border-default-200 xl:border-s">
@@ -45,16 +40,11 @@ const Features = () => {
                 <LuLayers className="h-14 w-14 text-default-950" />
               </span>
               <h2 className="mb-4 mt-8 text-2xl font-medium text-default-950">
-                Digital Product Design
+                Web App Development
               </h2>
               <p className="mb-6 text-base text-default-600">
-                Lorem ipsum dummy text are usually use in these section. Lorem
-                ipsum dummy text are used in this design
+                Pembuatan aplikasi web untuk membantu bisnis dalam hal operasional, dasbor internal, penyajian data, penjualan dan sebagainya
               </p>
-              <Link href="" className=" text-lg font-medium text-default-950">
-                Read More
-                <LuMoveRight className="inline-block h-6 w-6 opacity-0 transition-all duration-500 will-change-transform group-hover:translate-x-2 group-hover:opacity-100" />
-              </Link>
             </div>
           </div>
           <div className="group border-default-200 md:border-s">
@@ -63,16 +53,11 @@ const Features = () => {
                 <LuLayoutGrid className="h-14 w-14 text-default-950" />
               </span>
               <h2 className="mb-4 mt-8 text-2xl font-medium text-default-950">
-                Branding &amp; Design
+                IT Consultant
               </h2>
               <p className="mb-6 text-base text-default-600">
-                Lorem ipsum dummy text are usually use in these section. Lorem
-                ipsum dummy text are used in this design
+                Memberikan solusi yang tepat untuk kebutuhan bisnis secara spesifik dan merealisasikan solusi tersebut 
               </p>
-              <Link href="" className=" text-lg font-medium text-default-950">
-                Read More
-                <LuMoveRight className="inline-block h-6 w-6 opacity-0 transition-all duration-500 will-change-transform group-hover:translate-x-2 group-hover:opacity-100" />
-              </Link>
             </div>
           </div>
         </div>

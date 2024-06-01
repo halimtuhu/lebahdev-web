@@ -1,9 +1,9 @@
-import { cn } from '@/utils'
-import { faqContent } from '../data'
-import { LuChevronUp } from 'react-icons/lu'
+import { cn } from "@/utils";
+import { faqContent } from "../data";
+import { LuChevronUp } from "react-icons/lu";
 
-import agencyImg from '@/assets/images/landing/agency-2/4.svg'
-import Image from 'next/image'
+import agencyImg from "@/assets/images/landing/agency-2/4.svg";
+import Image from "next/image";
 
 const FAQs = () => {
   return (
@@ -12,10 +12,10 @@ const FAQs = () => {
         <div className="mb-10 flex items-end justify-between">
           <div className="mx-auto max-w-2xl text-center">
             <span className="rounded-md border border-primary bg-primary/20 px-3 py-1 text-xs font-medium uppercase tracking-wider text-primary">
-              Our FAQ
+              FAQ
             </span>
             <h2 className="my-4 text-3xl font-medium capitalize text-default-950">
-              Frequently Asked Questions ?
+              Pertanyaan yang sering ditanyakan ?
             </h2>
           </div>
         </div>
@@ -30,7 +30,7 @@ const FAQs = () => {
                   <div
                     key={idx}
                     className={cn(
-                      'hs-accordion overflow-hidden rounded-lg border border-default-200',
+                      "hs-accordion overflow-hidden rounded-lg border border-default-200",
                       { active: idx == 0 }
                     )}
                     id="faq-1"
@@ -47,7 +47,7 @@ const FAQs = () => {
                     <div
                       id="faq-accordion-1"
                       className={cn(
-                        'hs-accordion-content w-full overflow-hidden transition-[height] duration-300',
+                        "hs-accordion-content w-full overflow-hidden transition-[height] duration-300",
                         { hidden: idx != 0 }
                       )}
                       aria-labelledby="faq-1"
@@ -57,14 +57,14 @@ const FAQs = () => {
                       </div>
                     </div>
                   </div>
-                )
+                );
               })}
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default FAQs
+export default FAQs;
