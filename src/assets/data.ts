@@ -58,7 +58,7 @@ export const footerLinks: FooterLink[] = [
       {
         name: 'Email',
         icon: LuMail,
-        link: "mailto://kha"
+        link: "mailto://musfirati@lebah.dev"
       },
       {
         name: 'WhatsApp',
