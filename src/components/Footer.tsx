@@ -35,8 +35,8 @@ const Footer = () => {
                   Menghadirkan Era Baru dalam Pengembangan Web bersama LebahDev
                 </p>
                 <div className="mt-3">
-                  <div>Email: halimtuhuprasetyo@gmail.com</div>
-                  <div>Whtasapp: +62 822-2846-4006</div>
+                  <div>Email: khasanahchannel18@gmail.com</div>
+                  <div>Whtasapp: +62 822-1302-1513</div>
                 </div>
               </div>
             </div>

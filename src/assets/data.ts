@@ -58,12 +58,12 @@ export const footerLinks: FooterLink[] = [
       {
         name: 'Email',
         icon: LuMail,
-        link: "mailto://halimtuhuprasetyo@gmail.com"
+        link: "mailto://kha"
       },
       {
         name: 'WhatsApp',
         icon: LuPhoneCall,
-        link: "https://wa.me/6282228464006"
+        link: "https://wa.me/6282213021513"
       }
     ]
   }
