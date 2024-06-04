@@ -1,5 +1,5 @@
 import { IconType } from 'react-icons'
-import { LuFacebook, LuInstagram, LuLinkedin, LuTwitter } from 'react-icons/lu'
+import { LuFacebook, LuGithub, LuInstagram, LuLinkedin, LuMail, LuPhoneCall, LuTwitter } from 'react-icons/lu'
 
 export type FooterLink = {
   title: string
@@ -17,61 +17,57 @@ export type LandingPage = {
 
 export const footerLinks: FooterLink[] = [
   {
-    title: 'Company',
+    title: "Company",
     items: [
       {
-        name: 'About',
+        name: "About",
       },
       {
-        name: 'Services',
+        name: "Services",
+        link: "#features",
       },
       {
-        name: 'Portfolio',
-      },
-      {
-        name: 'Blog',
-      },
-      {
-        name: 'Contact',
+        name: "Portfolio",
+        link: "https://github.com/halimtuhu",
       },
     ],
   },
   {
-    title: 'Social Media',
+    title: "Social Media",
     items: [
       {
-        name: 'Facebook',
-        icon: LuFacebook,
-      },
-      {
-        name: 'Instagram',
+        name: "Instagram",
         icon: LuInstagram,
+        link: "https://www.instagram.com/lebahdev",
       },
       {
-        name: 'Twitter',
-        icon: LuTwitter,
-      },
-      {
-        name: 'Linkedin',
+        name: "Linkedin",
         icon: LuLinkedin,
+        link: "https://www.linkedin.com/in/halimtuhu/",
+      },
+      {
+        name: "Github",
+        icon: LuGithub,
+        link: "https://www.github.com/halimtuhu/",
       },
     ],
   },
   {
-    title: 'Legal & Press',
+    title: "Contacts",
     items: [
       {
-        name: 'Privacy Policy',
+        name: 'Email',
+        icon: LuMail,
+        link: "mailto://halimtuhuprasetyo@gmail.com"
       },
       {
-        name: 'Terms & Conditions',
-      },
-      {
-        name: 'Presskit',
-      },
-    ],
-  },
-]
+        name: 'WhatsApp',
+        icon: LuPhoneCall,
+        link: "https://wa.me/6282228464006"
+      }
+    ]
+  }
+];
 
 export const landingPages: LandingPage[] = [
   {

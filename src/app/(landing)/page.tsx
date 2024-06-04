@@ -4,6 +4,7 @@ import Features from "./components/Features";
 import FAQs from "./components/FAQs";
 // import Portfolio from './components/Portfolio'
 import Pricing from "./components/Pricing";
+import { Footer } from "@/components";
 // import Services from './components/Services'
 // import Since from './components/Since'
 // import Blogs from './components/Blogs'
@@ -41,6 +42,8 @@ const Landing = () => {
       {/* <Since /> */}
 
       {/* <Blogs /> */}
+
+      <Footer />
     </>
   );
 };

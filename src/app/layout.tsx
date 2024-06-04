@@ -80,6 +80,7 @@ export default function RootLayout({
             height={83}
             src={"/splash-screen.png"}
             style={{ height: "10%", width: "auto" }}
+            className="object-scale-down"
           />
         </div>
         <NextTopLoader color="#ea580c" showSpinner={false} />
