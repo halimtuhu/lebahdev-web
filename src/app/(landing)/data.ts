@@ -98,6 +98,16 @@ const projectSlides: ProjectSlideType[] = [
 
 const pricingPlans: PricingType[] = [
   {
+    name: "Paket Starter",
+    day: 7,
+    price: 500,
+    features: [
+      "Desain Menarik",
+      "1 Halaman Utama",
+      "Optimasi SEO Dasar",
+    ],
+  },
+  {
     name: "Paket Basic",
     day: 14,
     price: 1000,
